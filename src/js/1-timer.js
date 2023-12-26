@@ -12,6 +12,10 @@ const dataHours = document.querySelector('[data-hours]');
 const dataMinutes = document.querySelector('[data-minutes]');
 const dataSeconds = document.querySelector('[data-seconds]');
 
+document.addEventListener('DOMContentLoaded', () => {
+  startCountdownButton.disabled = true;
+});
+
 let userSelectedDate = '';
 
 const options = {

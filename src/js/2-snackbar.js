@@ -38,4 +38,5 @@ submitForm.addEventListener('submit', event => {
         position: 'topRight',
       });
     });
+  submitForm.reset();
 });
